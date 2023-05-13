@@ -1,0 +1,180 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+* {
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #0e0e0e;
+}
+
+i {
+  margin-right: 1rem;
+}
+
+.logo {
+  height: 1.5rem;
+  width: 1rem;
+  margin-right: 0.8rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #0e0e0e;
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-left: 1rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.hidden-links {
+  display: none;
+}
+
+.hero {
+  width: 100%;
+  padding: 2.5rem 0;
+  height: 50%;
+  background-image: url(/images/article-image-hero.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.hero-div {
+  margin: 72px 0.8rem 0 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.date-light {
+  font-size: 0.7rem;
+}
+
+.title-light {
+  font-size: 2rem;
+}
+
+.hero-text-light {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.hero-text-light {
+  font-weight: 300;
+}
+
+.date-light,
+.title-light,
+.hero-text-light {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 90%;
+  margin: 1rem auto;
+  color: #0e0e0e;
+}
+
+.post-img {
+  margin: 0.8rem 0;
+  width: 100%;
+}
+
+.date-dark,
+.post-title,
+.post-text {
+  padding: 0.2rem;
+  margin: 0;
+}
+
+.date-dark {
+  font-size: 0.8rem;
+}
+
+.post-title {
+  font-size: 1.5rem;
+}
+
+.post-text {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.show-more {
+  font-size: 1rem;
+  text-align: center;
+  margin: 2rem 0;
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  padding: 0.5rem 0;
+  background-color: #020202;
+  color: #ececec;
+}
+
+.footer-title {
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.footer-date {
+  margin-top: 0;
+  font-size: 0.6rem;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 690px) {
+  .links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    margin-right: 1rem;
+  }
+
+  .hidden-bars {
+    display: none;
+  }
+
+  .hero-div {
+    max-width: 60%;
+  }
+  .hero {
+    max-height: 488px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  .show-more {
+    grid-column: 1 / -1;
+  }
+}
