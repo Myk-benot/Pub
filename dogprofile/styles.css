@@ -1,0 +1,92 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  user-select: none;
+}
+
+h3 {
+  margin-bottom: 2rem;
+}
+
+h3,
+p {
+  align-self: flex-end;
+
+  color: #fff;
+  position: absolute;
+}
+
+button {
+  margin: 0.5rem 0;
+  background-color: #fff;
+  border-radius: 60%;
+  padding: 0.5rem;
+  box-shadow: 5px 5px 5px lightgrey;
+  border: 0.5px solid lightgray;
+}
+
+.hiddenlike,
+.hiddennope {
+  display: none;
+  max-width: 233px;
+  max-height: 116px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 550px;
+  min-height: 81px;
+}
+
+.header-img-grey {
+  max-width: 32px;
+  max-height: 34px;
+}
+
+.header-img-red {
+  max-width: 84px;
+  min-height: 42px;
+}
+
+#container {
+  max-width: 550px;
+  min-height: 800px;
+}
+
+.img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar {
+  position: relative;
+  max-width: 534px;
+  max-height: 751px;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.heart,
+.cross {
+  text-align: center;
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.main {
+  max-height: fit-content;
+  max-width: fit-content;
+  margin: 0 auto;
+  border: 1px solid black;
+}
