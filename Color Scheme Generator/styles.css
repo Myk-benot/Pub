@@ -1,0 +1,98 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aliceblue;
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  user-select: none;
+  font-family: "Quicksand", sans-serif;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90px;
+  background-color: #fff;
+  background-color: aliceblue;
+}
+
+#insert-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  height: 80%;
+  width: 100%;
+}
+
+.color-cols {
+  display: flex;
+  justify-content: center;
+}
+
+.color-col {
+  height: 100%;
+  width: 200px;
+}
+
+.color-hex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.select {
+  padding: 5px 10px;
+}
+
+#color-input {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.25rem;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  #insert-div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .color-col {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 90vw;
+  }
+  .color-cols {
+    display: flex;
+    justify-content: center;
+  }
+  .color-hex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+  }
+}
