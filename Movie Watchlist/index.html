@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Creepster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Movie Watchlist</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="title-div">
+          <h2 class="title">Find Your Film</h2>
+          <a href="/watchlist.html" class="header-nav">My Watchlist</a>
+        </div>
+      </div>
+      <div class="search-div">
+        <input
+          type="search"
+          value="Find Movies"
+          class="user-input"
+          onfocus="this.value=''"
+        />
+        <button class="btn">Search</button>
+      </div>
+      <div class="insert-div">
+        <span class="material-symbols-outlined theater-strip"> theaters </span>
+        <h4 class="init-text">Start Exploring</h4>
+      </div>
+    </div>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

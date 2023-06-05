@@ -1,0 +1,168 @@
+body,
+html {
+  font-family: "Creepster", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h2,
+a {
+  text-decoration: none;
+}
+
+input {
+  color: #787878;
+  background-color: #2e2e2f;
+  padding: 3px 30px;
+  border: none;
+  border: 2px solid #000;
+  font-family: "Creepster", cursive;
+}
+
+span {
+  margin-right: 1rem;
+}
+#remove-circle:hover,
+#add-circle:hover {
+  cursor: pointer;
+  color: #ec0505;
+  transform: scale(1.5);
+  transition: transform 0.5s;
+}
+
+input:focus {
+  outline: 0;
+  border: 1px solid #ec0505;
+  color: #fff;
+}
+
+.btn {
+  color: #fff;
+  background-color: #787878;
+  border: none;
+  padding: 3px 5px;
+  font-family: "Creepster", cursive;
+  margin-left: 1px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #ec0505;
+  background-color: #fff;
+  transform: scale(1.5);
+  transition: transform 0.5s;
+  border-radius: 2px;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 550px;
+  min-height: 779px;
+  border-radius: 5px;
+}
+
+.header {
+  border-radius: 5px;
+  max-width: 550px;
+  min-height: 208px;
+  background-image: url(/images/wp1834663.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: #ec0505;
+  font-size: large;
+  letter-spacing: 0.2rem;
+  padding-bottom: 2rem;
+}
+
+.header a {
+  color: #ec0505;
+}
+
+.header-nav:hover {
+  color: #fff;
+}
+
+.title-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.search-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #000000;
+}
+
+.insert-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: #787878;
+  min-height: 579px;
+  background-color: #000000;
+  padding-top: 2rem;
+}
+
+.theater-strip {
+  font-size: 3rem;
+}
+
+.insert-div-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #787878;
+  min-height: 579px;
+  background-color: #000000;
+}
+
+.insert-div-two a {
+  color: #787878;
+}
+
+.movie-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  color: #fff;
+  width: 90%;
+  border-bottom: 1px solid #787878;
+}
+
+.movie-div img {
+  width: 99px;
+  height: 147px;
+  padding-bottom: 1rem;
+}
+.movie-text {
+  font-size: 14px;
+  width: 100%;
+}
+
+.add-movies-watchlist:hover {
+  color: #fff;
+}
